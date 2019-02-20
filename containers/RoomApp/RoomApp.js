@@ -65,16 +65,17 @@ class RoomApp extends Component {
    checkChangeHandler = (key,event) => {
     let checked = event.target.checked;
     let newRoomArr = [...roomArr];
+    let tempState = {...this.state.roomData};
     newRoomArr.shift();
     if(checked){
       let updatedArr =  newRoomArr.filter(function(v){
-            return (newRoomArr.indexOf(v) <= newRoomArr.indexOf(key))
+            return ((newRoomArr.indexOf(v) <= newRoomArr.indexOf(key)) && !tempState[v]["enabled"])
         });
         this.setRoomStatus(updatedArr,true )
 
     } else {
         let updatedArr =  newRoomArr.filter(function(v){
-            return (newRoomArr.indexOf(v) >= newRoomArr.indexOf(key))
+            return (newRoomArr.indexOf(v) >= newRoomArr.indexOf(key) && tempState[v]["enabled"] );
         });
         this.setRoomStatus(updatedArr, false )
     }

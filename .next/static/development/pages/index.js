@@ -534,17 +534,20 @@ function (_Component) {
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "checkChangeHandler", function (key, event) {
       var checked = event.target.checked;
       var newRoomArr = [].concat(roomArr);
+
+      var tempState = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, _this.state.roomData);
+
       newRoomArr.shift();
 
       if (checked) {
         var updatedArr = newRoomArr.filter(function (v) {
-          return newRoomArr.indexOf(v) <= newRoomArr.indexOf(key);
+          return newRoomArr.indexOf(v) <= newRoomArr.indexOf(key) && !tempState[v]["enabled"];
         });
 
         _this.setRoomStatus(updatedArr, true);
       } else {
         var _updatedArr = newRoomArr.filter(function (v) {
-          return newRoomArr.indexOf(v) >= newRoomArr.indexOf(key);
+          return newRoomArr.indexOf(v) >= newRoomArr.indexOf(key) && tempState[v]["enabled"];
         });
 
         _this.setRoomStatus(_updatedArr, false);
@@ -601,7 +604,7 @@ function (_Component) {
         className: "roomApp",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_components_RoomList_RoomList__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -610,7 +613,7 @@ function (_Component) {
         updatePersonHandler: this.updatePersonHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 99
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
@@ -618,7 +621,7 @@ function (_Component) {
         onClick: this.handleSubmit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }, "Submit"));
@@ -3459,7 +3462,7 @@ var App = function App() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 1:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fyaminisukhija%2Froomjs-app%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************/
@@ -3482,5 +3485,5 @@ module.exports = dll_0f4ba55de2d76bf0f90b;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
