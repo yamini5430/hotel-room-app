@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import "./Room.css";
 import BuildControl from "../BuildControl/BuildControl";
 import Checkbox from "../../UI/CheckBox/CheckBox"
 

@@ -7,10 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./Room.css": [
+  "../containers/RoomApp/RoomApp.css": [
     {
-      "id": "./components/RoomList/Room/Room.css",
-      "name": "./components/RoomList/Room/Room.css",
+      "id": "./containers/RoomApp/RoomApp.css",
+      "name": "./containers/RoomApp/RoomApp.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -35,18 +35,18 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./BuildControl.css": [
+  "../components/RoomList/Room/Room.css": [
     {
-      "id": "./components/RoomList/BuildControl/BuildControl.css",
-      "name": "./components/RoomList/BuildControl/BuildControl.css",
+      "id": "./components/RoomList/Room/Room.css",
+      "name": "./components/RoomList/Room/Room.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./RoomApp.css": [
+  "../components/RoomList/BuildControl/BuildControl.css": [
     {
-      "id": "./containers/RoomApp/RoomApp.css",
-      "name": "./containers/RoomApp/RoomApp.css",
+      "id": "./components/RoomList/BuildControl/BuildControl.css",
+      "name": "./components/RoomList/BuildControl/BuildControl.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

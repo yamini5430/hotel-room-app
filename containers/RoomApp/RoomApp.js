@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import RoomList from '../../components/RoomList/RoomList';
-import "./RoomApp.css";
 
 const roomArr = ['room1','room2', 'room3', 'room4'];
 
@@ -14,7 +13,7 @@ class RoomApp extends Component {
 
    }
 
-   getRoomDefaultData = () => {
+   getRoomDefaultData =()=> {
       var newObj = roomArr.reduce(function(obj,v,i){
         obj[v] = {
             enabled : i > 0 ? false : true,

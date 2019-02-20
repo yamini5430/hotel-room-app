@@ -1,3 +1,20 @@
+button.submitDetails {
+    margin: 25px;
+    width: 75px;
+    height: 43px;
+    background-color: #A9A9A9;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.roomList {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: 25px;
+}  
 .room {
     min-height: 100px;
     max-width: 220px;
@@ -40,22 +57,5 @@
     width: 90%;
     margin-top: 5px;
 }
-button.submitDetails {
-    margin: 25px;
-    width: 75px;
-    height: 43px;
-    background-color: #A9A9A9;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.roomList {
-    display: flex;
-    align-items: center;
-    flex-flow: row;
-    justify-content: space-between;
-    width: 40%;
-    margin: 25px;
-}  
 
 /*# sourceMappingURL=styles.chunk.css.map*/
