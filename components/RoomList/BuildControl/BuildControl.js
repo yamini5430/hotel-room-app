@@ -1,5 +1,4 @@
 import React from 'react';
-import './BuildControl.css';
 import SelectBox from '../../UI/SelectBox/SelectBox'
 
 const buildControl = (props) => {

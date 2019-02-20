@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` snapshot test 1`] = `
+<div
+  className="roomApp"
+>
+  <div
+    className="roomList"
+  >
+    <div
+      className="room"
+    >
+      <div
+        className="title"
+      >
+        Room 1
+      </div>
+      <div
+        className="room-data"
+      >
+        <div
+          className="adult-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Adults
+            </p>
+            <p>
+              (18+)
+            </p>
+          </div>
+          <select
+            disabled={false}
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+        <div
+          className="children-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Children
+            </p>
+            <p>
+              (0-17)
+            </p>
+          </div>
+          <select
+            disabled={false}
+            onChange={[Function]}
+            value={0}
+          >
+            <option
+              value={0}
+            >
+              0
+            </option>
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="room disabled"
+    >
+      <div
+        className="checkbox"
+      >
+        <label>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value="Room 2"
+          />
+          Room 2
+        </label>
+      </div>
+      <div
+        className="room-data"
+      >
+        <div
+          className="adult-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Adults
+            </p>
+            <p>
+              (18+)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+        <div
+          className="children-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Children
+            </p>
+            <p>
+              (0-17)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={0}
+          >
+            <option
+              value={0}
+            >
+              0
+            </option>
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="room disabled"
+    >
+      <div
+        className="checkbox"
+      >
+        <label>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value="Room 3"
+          />
+          Room 3
+        </label>
+      </div>
+      <div
+        className="room-data"
+      >
+        <div
+          className="adult-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Adults
+            </p>
+            <p>
+              (18+)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+        <div
+          className="children-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Children
+            </p>
+            <p>
+              (0-17)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={0}
+          >
+            <option
+              value={0}
+            >
+              0
+            </option>
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="room disabled"
+    >
+      <div
+        className="checkbox"
+      >
+        <label>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value="Room 4"
+          />
+          Room 4
+        </label>
+      </div>
+      <div
+        className="room-data"
+      >
+        <div
+          className="adult-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Adults
+            </p>
+            <p>
+              (18+)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+        <div
+          className="children-count"
+        >
+          <div
+            className=""
+          >
+            <p>
+              Children
+            </p>
+            <p>
+              (0-17)
+            </p>
+          </div>
+          <select
+            disabled={true}
+            onChange={[Function]}
+            value={0}
+          >
+            <option
+              value={0}
+            >
+              0
+            </option>
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="submitDetails"
+    onClick={[Function]}
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`>>>Room List--- Snapshot +++capturing Snapshot of Room List 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RoomList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "roomList",
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "roomList",
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
