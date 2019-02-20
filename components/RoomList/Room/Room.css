@@ -1,0 +1,16 @@
+.room {
+    min-height: 100px;
+    max-width: 220px;
+    border: 3px solid #D3D3D3;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    padding: 3px 3px;
+}
+.title {
+    margin-bottom: 5px;
+}
+
+.room.disabled {
+    border : 3px solid #C0C0C0;
+    background-color: #DCDCDC;
+}

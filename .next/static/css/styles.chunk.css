@@ -1,0 +1,61 @@
+.room {
+    min-height: 100px;
+    max-width: 220px;
+    border: 3px solid #D3D3D3;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    padding: 3px 3px;
+}
+.title {
+    margin-bottom: 5px;
+}
+
+.room.disabled {
+    border : 3px solid #C0C0C0;
+    background-color: #DCDCDC;
+}
+
+.room-data {
+    background-color:#fff;
+    min-height: 80px;
+}
+.room.disabled .room-data{
+    background-color: #DCDCDC;
+}
+.adult-count,
+.children-count {
+    display: inline-block;
+    width: calc(50% - 10px);
+    padding: 5px;
+}
+.adult-count > div > p,
+.children-count > div > p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.adult-count > select,
+.children-count > select {
+    display: inline-block;
+    width: 90%;
+    margin-top: 5px;
+}
+button.submitDetails {
+    margin: 25px;
+    width: 75px;
+    height: 43px;
+    background-color: #A9A9A9;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.roomList {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: 25px;
+}  
+
+/*# sourceMappingURL=styles.chunk.css.map*/

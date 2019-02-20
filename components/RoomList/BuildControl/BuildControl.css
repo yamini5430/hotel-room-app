@@ -1,0 +1,25 @@
+.room-data {
+    background-color:#fff;
+    min-height: 80px;
+}
+.room.disabled .room-data{
+    background-color: #DCDCDC;
+}
+.adult-count,
+.children-count {
+    display: inline-block;
+    width: calc(50% - 10px);
+    padding: 5px;
+}
+.adult-count > div > p,
+.children-count > div > p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.adult-count > select,
+.children-count > select {
+    display: inline-block;
+    width: 90%;
+    margin-top: 5px;
+}
